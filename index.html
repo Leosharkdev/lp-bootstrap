@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial Netflix</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="color_netflix" href="#">Netflix</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Séries</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Filmes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Mais recentes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Minha lista</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron text-center background-netflix m-2">
+        <h1>Assista a tudo o que quiser.</h1>
+        <p>Quando quiser, onde quiser.</p>
+        <a class="btn btn-red btn-lg" href="#">Assine agora</a>
+    </div>
+
+    <div class="container-fluid mt-3 p-2 ml-4">
+        <div id="movieCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="card movie-card">
+                                <img src="img/capa1.jpg" class="card-img-top" alt="Filme 1">
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card movie-card">
+                                <img src="img/capa2.jpg" class="card-img-top" alt="Filme 2">
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card movie-card">
+                                <img src="img/capa3.jpg" class="card-img-top" alt="Filme 3">
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card movie-card">
+                                <img src="img/capa4.jpg" class="card-img-top" alt="Filme 4">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="card movie-card">
+                                <img src="img/capa5.jpg" class="card-img-top" alt="Filme 5">
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card movie-card">
+                                <img src="img/capa6.jpg" class="card-img-top" alt="Filme 6">
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card movie-card">
+                                <img src="img/capa7.jpg" class="card-img-top" alt="Filme 7">
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card movie-card">
+                                <img src="img/capa8.jpg" class="card-img-top" alt="Filme 8">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#movieCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#movieCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+    </div>
+
+    <footer class="text-white mt-3">
+        <div class="container-fluid">
+            <div class="row justify-content-between">
+                <div class="col-md-3 ml-4">
+                    <h5>Links Úteis</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Perguntas Frequentes</a></li>
+                        <li><a href="#">Termos de Uso</a></li>
+                        <li><a href="#">Política de Privacidade</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Entre em Contato</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Suporte</a></li>
+                        <li><a href="#">Assinaturas</a></li>
+                        <li><a href="#">Localização</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Redes Sociais</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-12">
+                    <p class="text-center">© 2023 Sua Empresa. Todos os direitos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</html>
